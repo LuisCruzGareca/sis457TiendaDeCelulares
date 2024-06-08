@@ -1,0 +1,12 @@
+C:\Users\HP\source\repos\sis457_Tienda_de_celulares\CadTiendaCelulares\bin\Debug\CadTiendaCelulares.dll.config
+C:\Users\HP\source\repos\sis457_Tienda_de_celulares\CadTiendaCelulares\bin\Debug\CadTiendaCelulares.dll
+C:\Users\HP\source\repos\sis457_Tienda_de_celulares\CadTiendaCelulares\bin\Debug\CadTiendaCelulares.pdb
+C:\Users\HP\source\repos\sis457_Tienda_de_celulares\CadTiendaCelulares\bin\Debug\EntityFramework.dll
+C:\Users\HP\source\repos\sis457_Tienda_de_celulares\CadTiendaCelulares\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\source\repos\sis457_Tienda_de_celulares\CadTiendaCelulares\bin\Debug\EntityFramework.xml
+C:\Users\HP\source\repos\sis457_Tienda_de_celulares\CadTiendaCelulares\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\source\repos\sis457_Tienda_de_celulares\CadTiendaCelulares\obj\Debug\CadTiendaCelulares.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\sis457_Tienda_de_celulares\CadTiendaCelulares\obj\Debug\CadTiendaCelulares.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\sis457_Tienda_de_celulares\CadTiendaCelulares\obj\Debug\CadTiend.094BAB54.Up2Date
+C:\Users\HP\source\repos\sis457_Tienda_de_celulares\CadTiendaCelulares\obj\Debug\CadTiendaCelulares.dll
+C:\Users\HP\source\repos\sis457_Tienda_de_celulares\CadTiendaCelulares\obj\Debug\CadTiendaCelulares.pdb

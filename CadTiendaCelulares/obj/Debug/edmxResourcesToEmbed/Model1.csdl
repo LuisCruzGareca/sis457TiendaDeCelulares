@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LabTiendaCelularesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="categorias">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="celulares" Relationship="Self.FK_celulares_categorias" FromRole="categorias" ToRole="celulares" />
+  </EntityType>
+  <EntityType Name="celulares">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fecha_creacion" Type="DateTime" Nullable="false" Precision="6" />
+    <Property Name="fecha_modificacion" Type="DateTime" Nullable="false" Precision="6" />
+    <Property Name="descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="marca" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="modelo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="precio" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="idColor" Type="Int32" />
+    <Property Name="idCategoria" Type="Int32" />
+    <NavigationProperty Name="categorias" Relationship="Self.FK_celulares_categorias" FromRole="celulares" ToRole="categorias" />
+    <NavigationProperty Name="colores" Relationship="Self.FK_celulares_colores" FromRole="celulares" ToRole="colores" />
+    <NavigationProperty Name="compras" Relationship="Self.FK_compras_celulares" FromRole="celulares" ToRole="compras" />
+  </EntityType>
+  <EntityType Name="colores">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="celulares" Relationship="Self.FK_celulares_colores" FromRole="colores" ToRole="celulares" />
+  </EntityType>
+  <EntityType Name="compras">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="direccion_envio" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="total" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="fecha_venta" Type="DateTime" Nullable="false" Precision="6" />
+    <Property Name="id_usuario" Type="Int32" />
+    <Property Name="idCelular" Type="Int32" />
+    <NavigationProperty Name="celulares" Relationship="Self.FK_compras_celulares" FromRole="compras" ToRole="celulares" />
+    <NavigationProperty Name="usuarios" Relationship="Self.FK__compras__id_usua__4AB81AF0" FromRole="compras" ToRole="usuarios" />
+  </EntityType>
+  <EntityType Name="usuarios">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="email" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="compras" Relationship="Self.FK__compras__id_usua__4AB81AF0" FromRole="usuarios" ToRole="compras" />
+  </EntityType>
+  <Association Name="FK_celulares_categorias">
+    <End Role="categorias" Type="Self.categorias" Multiplicity="0..1" />
+    <End Role="celulares" Type="Self.celulares" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="categorias">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="celulares">
+        <PropertyRef Name="idCategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_celulares_colores">
+    <End Role="colores" Type="Self.colores" Multiplicity="0..1" />
+    <End Role="celulares" Type="Self.celulares" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="colores">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="celulares">
+        <PropertyRef Name="idColor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_compras_celulares">
+    <End Role="celulares" Type="Self.celulares" Multiplicity="0..1" />
+    <End Role="compras" Type="Self.compras" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="celulares">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="compras">
+        <PropertyRef Name="idCelular" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__compras__id_usua__4AB81AF0">
+    <End Role="usuarios" Type="Self.usuarios" Multiplicity="0..1" />
+    <End Role="compras" Type="Self.compras" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuarios">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="compras">
+        <PropertyRef Name="id_usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LabTiendaCelularesEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="categorias" EntityType="Self.categorias" />
+    <EntitySet Name="celulares" EntityType="Self.celulares" />
+    <EntitySet Name="colores" EntityType="Self.colores" />
+    <EntitySet Name="compras" EntityType="Self.compras" />
+    <EntitySet Name="usuarios" EntityType="Self.usuarios" />
+    <AssociationSet Name="FK_celulares_categorias" Association="Self.FK_celulares_categorias">
+      <End Role="categorias" EntitySet="categorias" />
+      <End Role="celulares" EntitySet="celulares" />
+    </AssociationSet>
+    <AssociationSet Name="FK_celulares_colores" Association="Self.FK_celulares_colores">
+      <End Role="colores" EntitySet="colores" />
+      <End Role="celulares" EntitySet="celulares" />
+    </AssociationSet>
+    <AssociationSet Name="FK_compras_celulares" Association="Self.FK_compras_celulares">
+      <End Role="celulares" EntitySet="celulares" />
+      <End Role="compras" EntitySet="compras" />
+    </AssociationSet>
+    <AssociationSet Name="FK__compras__id_usua__4AB81AF0" Association="Self.FK__compras__id_usua__4AB81AF0">
+      <End Role="usuarios" EntitySet="usuarios" />
+      <End Role="compras" EntitySet="compras" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
