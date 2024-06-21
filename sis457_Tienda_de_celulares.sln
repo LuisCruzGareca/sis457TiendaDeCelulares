@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadTiendaCelulares", "CadTi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClnTiendaCelulares", "ClnTiendaCelulares\ClnTiendaCelulares.csproj", "{FF20E9FF-5EDE-40B6-A8F0-0486389C2DA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTiendaCelulares", "WebTiendaCelulares\WebTiendaCelulares.csproj", "{F5690780-064C-472B-91D4-E8B8758282DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FF20E9FF-5EDE-40B6-A8F0-0486389C2DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF20E9FF-5EDE-40B6-A8F0-0486389C2DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF20E9FF-5EDE-40B6-A8F0-0486389C2DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5690780-064C-472B-91D4-E8B8758282DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5690780-064C-472B-91D4-E8B8758282DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5690780-064C-472B-91D4-E8B8758282DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5690780-064C-472B-91D4-E8B8758282DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

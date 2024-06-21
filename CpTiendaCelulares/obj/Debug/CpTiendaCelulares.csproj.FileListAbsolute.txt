@@ -64,3 +64,36 @@ C:\Users\HP\source\repos\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpT
 C:\Users\HP\source\repos\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTienda.0093C722.Up2Date
 C:\Users\HP\source\repos\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTiendaCelulares.exe
 C:\Users\HP\source\repos\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTiendaCelulares.pdb
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\bin\Debug\CpTiendaCelulares.exe.config
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\bin\Debug\CpTiendaCelulares.exe
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\bin\Debug\CpTiendaCelulares.pdb
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\bin\Debug\CadTiendaCelulares.dll
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\bin\Debug\ClnTiendaCelulares.dll
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\bin\Debug\EntityFramework.dll
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\bin\Debug\CadTiendaCelulares.pdb
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\bin\Debug\CadTiendaCelulares.dll.config
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\bin\Debug\ClnTiendaCelulares.pdb
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\bin\Debug\ClnTiendaCelulares.dll.config
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\bin\Debug\EntityFramework.xml
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTiendaCelulares.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTiendaCelulares.frmCategoria.resources
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTiendaCelulares.frmCelulares.resources
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTiendaCelulares.frmColor.resources
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTiendaCelulares.frmCompra.resources
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTiendaCelulares.frmCompras.resources
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTiendaCelulares.frmEditarCelular.resources
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTiendaCelulares.frmEditarUsuario.resources
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTiendaCelulares.frmLogin.resources
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTiendaCelulares.frmMenu.resources
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTiendaCelulares.frmNuevoCelular.resources
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTiendaCelulares.frmNuevoUsuario.resources
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTiendaCelulares.Form1.resources
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTiendaCelulares.Properties.Resources.resources
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTiendaCelulares.csproj.GenerateResource.cache
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTiendaCelulares.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTienda.0093C722.Up2Date
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTiendaCelulares.exe
+C:\Users\HP\Documents\materias\sis457\tienda celulares\sis457TiendaDeCelulares\CpTiendaCelulares\obj\Debug\CpTiendaCelulares.pdb

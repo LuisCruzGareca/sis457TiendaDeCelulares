@@ -1,0 +1,82 @@
+﻿@model IEnumerable<WebTiendaCelulares.ViewModels.CelularViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<section id="latest-blog" class="padding-large">
+    <div class="container">
+        <div class="row">
+            <div class="display-header d-flex justify-content-between pb-3">
+                <h2 class="display-7 text-dark text-uppercase">Celulares</h2>
+            </div>
+            <div class="post-grid d-flex flex-wrap justify-content-between">
+
+            <p>
+                <a asp-action="Create">Create New</a>
+            </p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Nombre)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Descripcion)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Marca)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Modelo)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Precio)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.NombreCategoria)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.NombreColor)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+            @foreach (var item in Model) {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nombre)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Descripcion)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Marca)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Modelo)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Precio)
+                        </td>
+                        <td>
+                                @Html.DisplayFor(modelItem => item.NombreCategoria)
+                        </td>
+                        <td>
+                                @Html.DisplayFor(modelItem => item.NombreColor)
+                        </td>
+                        <td>
+                                    <a asp-action="Edit" asp-route-id="@item.Id"><i class="icon icon-review"></i>Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+
+                        </td>
+                    </tr>
+            }
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </div>
+</section>
+            
