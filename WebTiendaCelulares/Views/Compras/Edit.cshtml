@@ -4,7 +4,15 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<section id="latest-blog" class="padding-large">
+    <div class="container">
+        <div class="row">
+            <div class="display-header d-flex justify-content-between pb-3">
+                <h2 class="display-7 text-dark text-uppercase">Crear celular</h2>
+                <div class="btn-right">
+                    <a href="blog.html" class="btn btn-medium btn-normal text-uppercase">Editar</a>
+                </div>
+            </div>
 
 <h4>Compra</h4>
 <hr />
@@ -33,13 +41,14 @@
             </div>
         </form>
         <div>
-            <a asp-action="Index" class="btn btn-danger">Back to List</a>
+            <a asp-action="Index" class="btn btn-danger">Volver</a>
         </div>
     </div>
 </div>
 
-
-
+</div>
+</div>
+</section>
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

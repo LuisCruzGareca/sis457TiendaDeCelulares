@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebTiendaCelulares")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+411c5e41f23bf978dfde7299dff59e6b106a2091")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88a86d358d847ac962e89823e1d4affed99ab559")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebTiendaCelulares")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebTiendaCelulares")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

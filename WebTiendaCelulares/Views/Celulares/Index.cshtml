@@ -12,7 +12,7 @@
             <div class="post-grid d-flex flex-wrap justify-content-between">
 
             <p>
-                <a asp-action="Create">Create New</a>
+                <a asp-action="Create">Crear nuevo celular</a>
             </p>
             <table class="table">
                 <thead>
@@ -66,9 +66,9 @@
                                 @Html.DisplayFor(modelItem => item.NombreColor)
                         </td>
                         <td>
-                                    <a asp-action="Edit" asp-route-id="@item.Id"><i class="icon icon-review"></i>Edit</a> |
-                            <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                                    <a asp-action="Edit" asp-route-id="@item.Id"><i class="icon icon-review"></i>Editar</a> |
+                            <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
+                            <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
 
                         </td>
                     </tr>

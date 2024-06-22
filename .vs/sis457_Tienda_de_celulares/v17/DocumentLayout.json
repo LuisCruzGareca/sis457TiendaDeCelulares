@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5690780-064C-472B-91D4-E8B8758282DA}|WebTiendaCelulares\\WebTiendaCelulares.csproj|c:\\users\\hp\\documents\\materias\\sis457\\tienda celulares\\sis457tiendadecelulares\\webtiendacelulares\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5690780-064C-472B-91D4-E8B8758282DA}|WebTiendaCelulares\\WebTiendaCelulares.csproj|solutionrelative:webtiendacelulares\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F5690780-064C-472B-91D4-E8B8758282DA}|WebTiendaCelulares\\WebTiendaCelulares.csproj|c:\\users\\hp\\documents\\materias\\sis457\\tienda celulares\\sis457tiendadecelulares\\webtiendacelulares\\views\\compras\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5690780-064C-472B-91D4-E8B8758282DA}|WebTiendaCelulares\\WebTiendaCelulares.csproj|solutionrelative:webtiendacelulares\\views\\compras\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5690780-064C-472B-91D4-E8B8758282DA}|WebTiendaCelulares\\WebTiendaCelulares.csproj|C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\webtiendacelulares\\views\\celulares\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5690780-064C-472B-91D4-E8B8758282DA}|WebTiendaCelulares\\WebTiendaCelulares.csproj|solutionrelative:webtiendacelulares\\views\\celulares\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5690780-064C-472B-91D4-E8B8758282DA}|WebTiendaCelulares\\WebTiendaCelulares.csproj|C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\webtiendacelulares\\views\\celulares\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5690780-064C-472B-91D4-E8B8758282DA}|WebTiendaCelulares\\WebTiendaCelulares.csproj|solutionrelative:webtiendacelulares\\views\\celulares\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5690780-064C-472B-91D4-E8B8758282DA}|WebTiendaCelulares\\WebTiendaCelulares.csproj|C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\webtiendacelulares\\views\\compras\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5690780-064C-472B-91D4-E8B8758282DA}|WebTiendaCelulares\\WebTiendaCelulares.csproj|solutionrelative:webtiendacelulares\\views\\compras\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5690780-064C-472B-91D4-E8B8758282DA}|WebTiendaCelulares\\WebTiendaCelulares.csproj|C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\webtiendacelulares\\views\\compras\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5690780-064C-472B-91D4-E8B8758282DA}|WebTiendaCelulares\\WebTiendaCelulares.csproj|solutionrelative:webtiendacelulares\\views\\compras\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,16 +38,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebTiendaCelulares\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WebTiendaCelulares\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAIcAAAAAAAAAAAAAAKcAAABiAAAA",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\Views\\Celulares\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebTiendaCelulares\\Views\\Celulares\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\Views\\Celulares\\Create.cshtml",
+              "RelativeToolTip": "WebTiendaCelulares\\Views\\Celulares\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-21T13:38:31.992Z",
+              "WhenOpened": "2024-06-21T16:15:33.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\Views\\Celulares\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebTiendaCelulares\\Views\\Celulares\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\Views\\Celulares\\Delete.cshtml",
+              "RelativeToolTip": "WebTiendaCelulares\\Views\\Celulares\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T16:16:28.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\Views\\Compras\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebTiendaCelulares\\Views\\Compras\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\Views\\Compras\\Create.cshtml",
+              "RelativeToolTip": "WebTiendaCelulares\\Views\\Compras\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T16:15:05.844Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\Views\\Compras\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebTiendaCelulares\\Views\\Compras\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\Views\\Compras\\Edit.cshtml",
+              "RelativeToolTip": "WebTiendaCelulares\\Views\\Compras\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T16:14:34.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\Views\\Compras\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebTiendaCelulares\\Views\\Compras\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\Views\\Compras\\Index.cshtml",
+              "RelativeToolTip": "WebTiendaCelulares\\Views\\Compras\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T16:13:19.651Z"
             }
           ]
         }

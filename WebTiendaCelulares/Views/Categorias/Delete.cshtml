@@ -4,7 +4,16 @@
     ViewData["Title"] = "Delete";
 }
 
-<h1>Delete</h1>
+<section id="latest-blog" class="padding-large">
+    <div class="container">
+        <div class="row">
+            <div class="display-header d-flex justify-content-between pb-3">
+                <h2 class="display-7 text-dark text-uppercase">Eliminar Categoria</h2>
+                <div class="btn-right">
+                    <a href="blog.html" class="btn btn-medium btn-normal text-uppercase">Eliminar</a>
+                </div>
+            </div>
+
 
 <h3>Estas seguro que quieres borrar esta categoria?</h3>
 <div>
@@ -27,6 +36,9 @@
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+                    <a asp-action="Index" class="btn btn-danger">Volver</a>
     </form>
 </div>
+</div>
+</div>
+</section>
