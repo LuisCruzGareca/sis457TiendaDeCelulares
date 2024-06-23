@@ -107,8 +107,10 @@ a:hover {
     background: var(--dark-color);
 }
 .bg-light {
-    background: var(--light-color);
+    --bs-bg-opacity: 1;
+    background-color: #ffffff !important;
 }
+
 .bg-light-blue {
     background: var(--light-blue-color);
 }

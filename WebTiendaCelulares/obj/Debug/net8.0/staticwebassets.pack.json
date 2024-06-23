@@ -29,6 +29,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
       "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\images\\banner-image.png",
       "PackagePath": "staticwebassets\\images\\banner-image.png"
     },
@@ -53,8 +61,20 @@
       "PackagePath": "staticwebassets\\images\\commentor-item3.jpg"
     },
     {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\images\\descargar (1).png",
+      "PackagePath": "staticwebassets\\images\\descargar (1).png"
+    },
+    {
       "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\images\\dhl.png",
       "PackagePath": "staticwebassets\\images\\dhl.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\images\\file.png",
+      "PackagePath": "staticwebassets\\images\\file.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\images\\images.jpeg",
+      "PackagePath": "staticwebassets\\images\\images.jpeg"
     },
     {
       "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\images\\insta-item1.jpg",
@@ -479,6 +499,218 @@
     {
       "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\banner-image.png",
+      "PackagePath": "staticwebassets\\sad\\banner-image.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\cart-item1.jpg",
+      "PackagePath": "staticwebassets\\sad\\cart-item1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\cart-item2.jpg",
+      "PackagePath": "staticwebassets\\sad\\cart-item2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\commentor-item1.jpg",
+      "PackagePath": "staticwebassets\\sad\\commentor-item1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\commentor-item2.jpg",
+      "PackagePath": "staticwebassets\\sad\\commentor-item2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\commentor-item3.jpg",
+      "PackagePath": "staticwebassets\\sad\\commentor-item3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\descargar (1).png",
+      "PackagePath": "staticwebassets\\sad\\descargar (1).png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\dhl.png",
+      "PackagePath": "staticwebassets\\sad\\dhl.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\images.jpeg",
+      "PackagePath": "staticwebassets\\sad\\images.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\insta-item1.jpg",
+      "PackagePath": "staticwebassets\\sad\\insta-item1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\insta-item2.jpg",
+      "PackagePath": "staticwebassets\\sad\\insta-item2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\insta-item3.jpg",
+      "PackagePath": "staticwebassets\\sad\\insta-item3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\insta-item4.jpg",
+      "PackagePath": "staticwebassets\\sad\\insta-item4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\insta-item5.jpg",
+      "PackagePath": "staticwebassets\\sad\\insta-item5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\main-logo.png",
+      "PackagePath": "staticwebassets\\sad\\main-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\mastercard.jpg",
+      "PackagePath": "staticwebassets\\sad\\mastercard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\paypal.jpg",
+      "PackagePath": "staticwebassets\\sad\\paypal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\post-image.jpg",
+      "PackagePath": "staticwebassets\\sad\\post-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\post-image1.jpg",
+      "PackagePath": "staticwebassets\\sad\\post-image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\post-item1.jpg",
+      "PackagePath": "staticwebassets\\sad\\post-item1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\post-item2.jpg",
+      "PackagePath": "staticwebassets\\sad\\post-item2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\post-item3.jpg",
+      "PackagePath": "staticwebassets\\sad\\post-item3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\post-item4.jpg",
+      "PackagePath": "staticwebassets\\sad\\post-item4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\post-item5.jpg",
+      "PackagePath": "staticwebassets\\sad\\post-item5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\post-item6.jpg",
+      "PackagePath": "staticwebassets\\sad\\post-item6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\post-item7.jpg",
+      "PackagePath": "staticwebassets\\sad\\post-item7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\post-item8.jpg",
+      "PackagePath": "staticwebassets\\sad\\post-item8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\post-item9.jpg",
+      "PackagePath": "staticwebassets\\sad\\post-item9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\post-small-image1.jpg",
+      "PackagePath": "staticwebassets\\sad\\post-small-image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\post-small-image2.jpg",
+      "PackagePath": "staticwebassets\\sad\\post-small-image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\post-small-image3.jpg",
+      "PackagePath": "staticwebassets\\sad\\post-small-image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\product-item1.jpg",
+      "PackagePath": "staticwebassets\\sad\\product-item1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\product-item10.jpg",
+      "PackagePath": "staticwebassets\\sad\\product-item10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\product-item2.jpg",
+      "PackagePath": "staticwebassets\\sad\\product-item2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\product-item3.jpg",
+      "PackagePath": "staticwebassets\\sad\\product-item3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\product-item4.jpg",
+      "PackagePath": "staticwebassets\\sad\\product-item4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\product-item5.jpg",
+      "PackagePath": "staticwebassets\\sad\\product-item5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\product-item6.jpg",
+      "PackagePath": "staticwebassets\\sad\\product-item6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\product-item7.jpg",
+      "PackagePath": "staticwebassets\\sad\\product-item7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\product-item8.jpg",
+      "PackagePath": "staticwebassets\\sad\\product-item8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\product-item9.jpg",
+      "PackagePath": "staticwebassets\\sad\\product-item9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\review-item1.jpg",
+      "PackagePath": "staticwebassets\\sad\\review-item1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\review-item2.jpg",
+      "PackagePath": "staticwebassets\\sad\\review-item2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\search-icon.png",
+      "PackagePath": "staticwebassets\\sad\\search-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\shippingcard.png",
+      "PackagePath": "staticwebassets\\sad\\shippingcard.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\singel-product-item.jpg",
+      "PackagePath": "staticwebassets\\sad\\singel-product-item.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\single-image1.png",
+      "PackagePath": "staticwebassets\\sad\\single-image1.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\single-image2.jpg",
+      "PackagePath": "staticwebassets\\sad\\single-image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\single-image3.jpg",
+      "PackagePath": "staticwebassets\\sad\\single-image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\single-post.jpg",
+      "PackagePath": "staticwebassets\\sad\\single-post.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\sad\\visa.jpg",
+      "PackagePath": "staticwebassets\\sad\\visa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\videos\\5.mp4",
+      "PackagePath": "staticwebassets\\videos\\5.mp4"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Documents\\materias\\sis457\\tienda celulares\\sis457TiendaDeCelulares\\WebTiendaCelulares\\wwwroot\\videos\\apple.mp4",
+      "PackagePath": "staticwebassets\\videos\\apple.mp4"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebTiendaCelulares.Microsoft.AspNetCore.StaticWebAssets.props",
