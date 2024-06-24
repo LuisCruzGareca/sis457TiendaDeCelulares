@@ -28,10 +28,12 @@ namespace WebTiendaCelulares.Controllers
         // POST: CategoriasController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
+        //Bind -> coge los valores de los campos Nombre y Descripcion del formualrio de crear categoria y los mete en los atributos
+        //Nomnbre y Descripcion de la calse categoria.
         public async Task<IActionResult> Create([Bind("Nombre,Descripcion")]Categoria categoria)
         {
 
-             if (ModelState.IsValid)
+             if (ModelState.IsValid)//esta linea compureba si la categoria es correcta, es decir que tiene todos sus comapos con valor y no estan vacios
             {
                 _context.Add(categoria);
                 await _context.SaveChangesAsync();

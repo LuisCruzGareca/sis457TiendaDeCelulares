@@ -34,7 +34,8 @@ namespace WebTiendaCelulares.Controllers
                     Precio = c.Precio,
                     Descripcion = c.Descripcion,
                     NombreCategoria = c.IdCategoriaNavigation.Nombre,
-                    NombreColor = c.IdColorNavigation.Nombre
+                    NombreColor = c.IdColorNavigation.Nombre,
+                   
                 })
                 .ToListAsync();
             return View(labTiendaCelularesContext);
@@ -60,7 +61,7 @@ namespace WebTiendaCelulares.Controllers
                     Precio = c.Precio,
                     Descripcion = c.Descripcion,
                     NombreCategoria = c.IdCategoriaNavigation.Nombre,
-                    NombreColor = c.IdColorNavigation.Nombre
+                    NombreColor = c.IdColorNavigation.Nombre,
                 })
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (celular == null)
@@ -172,7 +173,7 @@ namespace WebTiendaCelulares.Controllers
                     Precio = c.Precio,
                     Descripcion = c.Descripcion,
                     NombreCategoria = c.IdCategoriaNavigation.Nombre,
-                    NombreColor = c.IdColorNavigation.Nombre
+                    NombreColor = c.IdColorNavigation.Nombre,
                 })
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (celular == null)

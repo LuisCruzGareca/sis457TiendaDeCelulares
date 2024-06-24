@@ -110,8 +110,7 @@ namespace WebTiendaCelulares.Migrations
                         .HasColumnType("decimal(10, 2)")
                         .HasColumnName("precio");
 
-                    b.Property<int>("Stock")
-                        .HasColumnType("int");
+                 
 
                     b.HasKey("Id")
                         .HasName("PK__celulare__3213E83FD7733505");

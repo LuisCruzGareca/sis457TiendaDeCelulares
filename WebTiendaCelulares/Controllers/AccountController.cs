@@ -34,20 +34,18 @@ namespace WebTiendaCelulares.Controllers
         public async Task<IActionResult> Login(LoginViewModel model, string? returnUrl = null)
         {
             ViewData["ReturnUrl"] = returnUrl;
-            /*if (!ModelState.IsValid)
-            {
-                ModelState.AddModelError("", "Intentos de inicio de sesión no válidos.");
-                return View(model);
-            }*/
 
+            // se busca usando el context al usuario que el campo email sea igual al email que ha introducido el usuario en el formulario y que su 
+            //contraseña sea igual a la contraseña codificada en md5 que ha introducido el usuario en el formulario
             var usuario = _context.Usuarios.Where(x => x.Email == model.usuario &&
                     x.Password == GetMD5Hash(model.clave)).FirstOrDefault();
             if (usuario != null)
             {
                 TempData["isLogged"] = true;
+                //se guardad el email del usuario que he buscado en la base de datos en un Claim para luego poder recuperarlo y a la hora de 
+                //comprar poder buscar al usuario usando su email
                 var claims = new List<Claim>
                 {
-                    new Claim("FullName", $"{usuario.Nombre}"),
                     new Claim(ClaimTypes.Email, usuario.Email),
                     new Claim(ClaimTypes.Role, "admin", ClaimValueTypes.String)
                 };
@@ -68,18 +66,20 @@ namespace WebTiendaCelulares.Controllers
 
                 if (returnUrl == null) returnUrl = ViewData["ReturnUrl"]?.ToString();
                 if (returnUrl != null) return Redirect(returnUrl);
-                else return RedirectToAction(nameof(HomeController.Index), "Home");
+                else return RedirectToAction(nameof(HomeController.Index), "Home");//si todo es correcto se redirige al usuario a la paginad e inicio
             }
             else
             {
+                //si algo es incorrecto se redirige al usuario a la pagina de login con el mensaje de error.
                 ViewBag.ReturnUrl = returnUrl;
-                ModelState.AddModelError("", "Intentos de inicio de sesión no válidos.");
+                ModelState.AddModelError("", "Email o contraseña inválidos.");
                 return View(model);
             }
         }
         public async Task<IActionResult> Logout()
         {
             TempData["isLogged"] = false;
+            //se deslogea al usuario
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction(nameof(HomeController.Index), "Home");
         }

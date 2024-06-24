@@ -50,6 +50,7 @@ namespace ClnTiendaCelulares
                 existente.descripcion = celular.descripcion;
                 existente.marca = celular.marca;
                 existente.modelo = celular.modelo;
+                existente.Stock = celular.Stock;
                 existente.precio = celular.precio;
                 existente.idColor = celular.idColor;
                 existente.idCategoria = celular.idCategoria;

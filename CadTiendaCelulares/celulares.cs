@@ -35,5 +35,6 @@ namespace CadTiendaCelulares
         public virtual colores colores { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<compras> compras { get; set; }
+        public int Stock { get; set; }
     }
 }

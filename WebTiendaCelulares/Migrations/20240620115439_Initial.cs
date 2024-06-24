@@ -150,6 +150,10 @@ namespace WebTiendaCelulares.Migrations
 
             migrationBuilder.DropTable(
                 name: "colores");
+
+            migrationBuilder.DropColumn(
+          name: "Stock",
+          table: "celulares");
         }
     }
 }

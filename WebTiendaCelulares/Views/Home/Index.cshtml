@@ -1,4 +1,4 @@
-﻿@{
+﻿card-detail d-flex justify-content-between align-items-baseline pt-3@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -15,7 +15,7 @@
                 </video>
 
                 <!-- Contenedor del contenido -->
-                <div class="container" style="position: relative; z-index: 1;">
+            @*     <div class="container" style="position: relative; z-index: 1;">
                     <div class="row d-flex align-items-center">
                         <div class="col-md-6">
                             <div class="banner-content">
@@ -28,7 +28,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> *@
 
 
         </div>
@@ -76,7 +76,7 @@
                         </svg>
                     </div>
                     <div class="icon-box-content">
-                        <h3 class="card-title text-uppercase text-dark">
+                        <h3 class="card-title text-uppercase text-dark" style="float:none">
                             Pago 100% seguro
                         </h3>
                         <p>Rem Lopsum dolor sit amet, consectetur adipi elit.</p>
@@ -93,10 +93,8 @@
                 <h2 class="display-7 text-dark text-uppercase">CELULARES</h2>
               
             </div>
-
-
             <div class="swiper product-swiper">
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper" style="margin-bottom:20px;">
                     <!-- Primer grupo de cuatro -->
                     <div class="swiper-slide">
                         <div class="product-card">
@@ -174,7 +172,7 @@
             </div>
 
             <div class="swiper product-swiper">
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper" style="margin-bottom:20px;">
                     <!-- Primer grupo de cuatro -->
                     <div class="swiper-slide">
                         <div class="product-card position-relative">
@@ -186,7 +184,7 @@
                                     <a asp-controller="Compras" asp-action="Create" asp-route-celularId="2010" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
                                 </div>
                             </div>
-                            <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
+                            <div class="card-detail">
                                 <h3 class="card-title text-uppercase">
                                     <a href="#">Iphone 12</a>
                                 </h3>
@@ -251,8 +249,8 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper product-swiper">
-                <div class="swiper-wrapper">
+            <div class="product-swiper">
+                <div class="swiper-wrapper" style="margin-bottom:20px;">
                     <!-- Primer grupo de cuatro -->
                     <div class="swiper-slide">
                         <div class="product-card position-relative">
@@ -264,7 +262,7 @@
                                     <a asp-controller="Compras" asp-action="Create" asp-route-celularId="2010" class="btn btn-medium btn-black">Añadir al carrito<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
                                 </div>
                             </div>
-                            <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
+                            <div class="card-detail">
                                 <h3 class="card-title text-uppercase">
                                     <a href="#">Iphone 12</a>
                                 </h3>
@@ -329,21 +327,6 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-           
-                   
-
-
-
-
-                <
         </div>
     </div>
     <div class="swiper-pagination position-absolute text-center"></div>

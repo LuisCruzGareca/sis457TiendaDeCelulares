@@ -8,8 +8,9 @@ namespace WebTiendaCelulares.Models;
 public partial class Compra
 {
     public int Id { get; set; }
-
+    [Required(ErrorMessage = "El campo Compra es obligatorio.")]
     public string DireccionEnvio { get; set; } = "-";
+
 
     [Required]
     [Column(TypeName = "decimal(18,2)")]

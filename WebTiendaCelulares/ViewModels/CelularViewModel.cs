@@ -11,6 +11,7 @@
         //public int Stock { get; set; }
         public string NombreCategoria { get; set; }
         public string NombreColor { get; set; }
+        public int Stock { get; set; }
     }
 
 }
