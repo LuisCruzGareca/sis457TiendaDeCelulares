@@ -1,52 +1,58 @@
 ﻿@model WebTiendaCelulares.Models.Usuario
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Crear Usuario";
 }
 
-<section id="latest-blog" class="padding-large">
+<section id="crear-usuario" class="padding-large">
     <div class="container">
         <div class="row">
-            <div class="display-header d-flex justify-content-between pb-3">
-                <h2 class="display-7 text-dark text-uppercase">Crear Usuario</h2>
-                <div class="btn-right">
-                    <a href="blog.html" class="btn btn-medium btn-normal text-uppercase">Crear Nuevo</a>
+            <div class="col-12">
+                <div class="card shadow">
+                    <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                        <h2 class="card-title text-uppercase mb-0">Crear Usuario</h2>
+                        <a asp-action="Index" class="btn btn-light">Volver al Listado</a>
+                    </div>
+                    <div class="card-body">
+                        <h4>Usuario</h4>
+                        <hr />
+                        <div class="row">
+                            <div class="col-md-6 mx-auto">
+                                <form asp-action="Create">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                    <div class="form-group">
+                                        <label asp-for="Email" class="control-label"></label>
+                                        <input asp-for="Email" class="form-control" />
+                                        <span asp-validation-for="Email" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="Password" class="control-label"></label>
+                                        <input asp-for="Password" class="form-control" />
+                                        <span asp-validation-for="Password" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="Nombre" class="control-label"></label>
+                                        <input asp-for="Nombre" class="form-control" />
+                                        <span asp-validation-for="Nombre" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group" style="margin-top: 20px;">
+                                        <button type="submit" class="btn btn-primary">Crear</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div>
+                            <a asp-action="Index" class="btn btn-danger">Volver</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-<h4>Usuario</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4 mx-auto">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Password" class="control-label"></label>
-                <input asp-for="Password" class="form-control" />
-                <span asp-validation-for="Password" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Nombre" class="control-label"></label>
-                <input asp-for="Nombre" class="form-control" />
-                <span asp-validation-for="Nombre" class="text-danger"></span>
-            </div>
-            <div class="form-group" style="margin:20px 0">
-                <input type="submit" value="Crear" class="btn btn-primary" />
-            </div>
-        </form>
-            <div>
-                <a asp-action="Index" class="btn btn-danger">Volver</a>
         </div>
     </div>
-</div>
-
-
+</section>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

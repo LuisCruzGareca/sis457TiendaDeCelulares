@@ -4,23 +4,36 @@
     ViewData["Title"] = "Delete";
 }
 
-<h1>Delete</h1>
+<section id="delete-color" class="padding-large">
+    <div class="container">
+        <div class="row">
+            <div class="display-header d-flex justify-content-between pb-3">
+                <h2 class="display-7 text-dark text-uppercase">Eliminar Color</h2>
+            </div>
 
-<h3>Estas seguro que quieres borrar este color</h3>
-<div>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nombre)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nombre)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index" class="btn btn-danger">Volver</a>
-    </form>
-</div>
+            <h4 class="text-center">¿Estás seguro que quieres eliminar este color?</h4>
+            <hr />
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <dl class="row">
+                        <dt class="col-sm-4">Nombre</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Nombre)</dd>
+                    </dl>
+                    <form asp-action="Delete">
+                        <input type="hidden" asp-for="Id" />
+                        <div class="form-group">
+                            <input type="submit" value="Eliminar" class="btn btn-danger" />
+                            <a asp-action="Index" class="btn btn-secondary ml-2">Volver</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

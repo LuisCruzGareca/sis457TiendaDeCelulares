@@ -4,59 +4,49 @@
     ViewData["Title"] = "Delete";
 }
 
-<h1>Eliminar</h1>
+<section id="eliminar-celular" class="padding-large">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 m-auto">
+                <div class="card shadow">
+                    <div class="card-header bg-danger text-white">
+                        <h2 class="card-title text-uppercase mb-0">Eliminar celular</h2>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center text-danger">¿Estás seguro que quieres eliminar este celular?</h3>
+                        <hr />
+                        <dl class="row">
+                            <dt class="col-sm-4">Nombre</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Nombre)</dd>
 
-<h3>¿Estás seguro que quieres eliminar este celular?</h3>
-<div>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nombre)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nombre)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Descripcion)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Descripcion)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Marca)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Marca)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Modelo)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Modelo)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Precio)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Precio)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NombreCategoria)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NombreCategoria)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NombreColor)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NombreColor)
-        </dd>
-    </dl>
-    
-    <form asp-action="Eliminar">
-        <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Volver</a>
-    </form>
-</div>
+                            <dt class="col-sm-4">Descripción</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Descripcion)</dd>
+
+                            <dt class="col-sm-4">Marca</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Marca)</dd>
+
+                            <dt class="col-sm-4">Modelo</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Modelo)</dd>
+
+                            <dt class="col-sm-4">Precio</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Precio)</dd>
+
+                            <dt class="col-sm-4">Categoría</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.NombreCategoria)</dd>
+
+                            <dt class="col-sm-4">Color</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.NombreColor)</dd>
+                        </dl>
+                        <form asp-action="Delete">
+                            <input type="hidden" asp-for="Id" />
+                            <div class="text-center">
+                                <input type="submit" value="Eliminar" class="btn btn-danger" />
+                                <a asp-action="Index" class="btn btn-secondary ml-2">Volver</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

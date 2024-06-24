@@ -5,39 +5,42 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<section id="latest-blog" class="padding-large">
+<section id="login" class="padding-large">
     <div class="container">
         <div class="row">
-            <div class="display-header d-flex justify-content-between pb-3">
-                <h2 class="display-7 text-dark text-uppercase">Login</h2>
-            </div>
-            <div class="post-grid d-flex flex-wrap justify-content-between">
+            <div class="col-md-6 m-auto">
+                <div class="card shadow">
+                    <div class="card-header bg-primary text-white">
+                        <h2 class="card-title text-uppercase mb-0">Iniciar Sesión</h2>
+                    </div>
+                    <div class="card-body">
+                        <form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" role="form">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-                <form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" role="form">
-                    <div class="font-weight-bold">Iniciar Sesión</div>
-                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                    <div class="form-group">
-                        <label asp-for="usuario" class="control-label"></label>
-                        <input asp-for="usuario" class="form-control" placeholder="Usuario" required />
-                        <span asp-validation-for="usuario" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="clave" class="control-label"></label>
-                        <input asp-for="clave" type="password" class="form-control" placeholder="Contraseña" required />
-                        <span asp-validation-for="clave" class="text-danger"></span>
-                    </div>
-                    <div class="row" style="margin-top:50px;">
-                        <div class="col-xs-7">
-                            <input type="checkbox" name="recordarme" id="recordarme" />
-                            <label for="recordarme">Recordarme</label>
-                        </div>
-                        <div class="col-xs-5">
-                            <input type="submit" value="Iniciar Sesión" class="btn btn-primary" style="display:block;" />
-                            <a asp-controller="Usuarios" asp-action="Create" class="btn btn-accent" style="margin-top:20px;">Crear Usuario</a>
-                        </div>
-                    </div>
-                </form>
+                            <div class="form-group">
+                                <label asp-for="usuario" class="control-label text-dark">Usuario</label>
+                                <input asp-for="usuario" class="form-control" placeholder="Usuario" required />
+                                <span asp-validation-for="usuario" class="text-danger"></span>
+                            </div>
 
+                            <div class="form-group">
+                                <label asp-for="clave" class="control-label text-dark">Contraseña</label>
+                                <input asp-for="clave" type="password" class="form-control" placeholder="Contraseña" required />
+                                <span asp-validation-for="clave" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" name="recordarme" id="recordarme" />
+                                <label class="form-check-label" for="recordarme">Recordarme</label>
+                            </div>
+
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                                <a asp-controller="Usuarios" asp-action="Create" class="btn btn-secondary ml-2">Crear Usuario</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -1,47 +1,47 @@
 ﻿@model WebTiendaCelulares.Models.Categoria
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Crear Categoria";
 }
 
-<section id="latest-blog" class="padding-large">
+<section id="crear-categoria" class="padding-large">
     <div class="container">
         <div class="row">
-            <div class="display-header d-flex justify-content-between pb-3">
-                <h2 class="display-7 text-dark text-uppercase">Crear Categoria </h2>
-                <div class="btn-right">
-                    <a href="blog.html" class="btn btn-medium btn-normal text-uppercase">Crear Nuevo</a>
+            <div class="col-md-8 m-auto">
+                <div class="card shadow">
+                    <div class="card-header bg-primary text-white">
+                        <h2 class="card-title text-uppercase mb-0">Crear Categoria</h2>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="Create">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                            <div class="form-group">
+                                <label asp-for="Nombre" class="control-label text-dark">Nombre</label>
+                                <input asp-for="Nombre" class="form-control" />
+                                <span asp-validation-for="Nombre" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="Descripcion" class="control-label text-dark">Descripción</label>
+                                <input asp-for="Descripcion" class="form-control" />
+                                <span asp-validation-for="Descripcion" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group text-center">
+                                <button type="submit" class="btn btn-primary">Crear</button>
+                                <a asp-action="Index" class="btn btn-danger ml-2">Volver</a>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-
-<h4>Categoria</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4 mx-auto">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Nombre" class="control-label"></label>
-                <input asp-for="Nombre" class="form-control" />
-                <span asp-validation-for="Nombre" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Descripcion" class="control-label"></label>
-                <input asp-for="Descripcion" class="form-control" />
-                <span asp-validation-for="Descripcion" class="text-danger"></span>
-            </div>            
-            <div class="form-group" style="margin:20px 0">
-                <input type="submit" value="Crear" class="btn btn-primary" />
-            </div>
-        </form>
-        <div>
-            <a asp-action="Index" class="btn btn-danger">Volver</a>
-        </div>
-    </div>
-</div>
         </div>
     </div>
 </section>
+
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

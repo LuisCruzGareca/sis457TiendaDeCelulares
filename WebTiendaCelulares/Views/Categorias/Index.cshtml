@@ -5,45 +5,49 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<section id="latest-blog" class="padding-large">
-<div class="container">
-    <div class="row">
-        <div class="display-header d-flex justify-content-between pb-3">
-            <h2 class="display-7 text-dark text-uppercase">Categorias</h2>
-            <div class="btn-right">
+<section id="listar-categorias" class="padding-large">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card shadow">
+                    <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                        <h2 class="card-title text-uppercase mb-0">Categorias</h2>
+                        <a asp-action="Create" class="btn btn-light">Crear nueva categoría</a>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th>@Html.DisplayNameFor(model => model.First().Nombre)</th>
+                                        <th>@Html.DisplayNameFor(model => model.First().Descripcion)</th>
+                                        <th>Acciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
+                                            <td>@Html.DisplayFor(modelItem => item.Descripcion)</td>
+                                            <td>
+                                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Editar</a>
+                                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger ml-2">Eliminar</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="post-grid d-flex flex-wrap justify-content-between">
+    </div>
+</section>
 
-            <a asp-action="Create">Crear Nuevo</a>
-
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Descripción</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var item in Model)
-                    {
-                        <tr>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Nombre)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Descripcion)
-                            </td>
-                            <td>
-                                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                                <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
-                            </td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-            </div>
-            </div>
-            </div>
-            </section>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
